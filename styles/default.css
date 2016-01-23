@@ -1,0 +1,269 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    background-color: black;
+    color: #fffedb;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-left: 10px;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin-right: 10px;
+    font-size: 1rem;
+    align-self: flex-end;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: right;
+    border-top: 1px solid #fffedb;
+    margin-top: 10px;
+}
+
+footer a,
+footer a:hover{
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2.5rem;
+    display: inline-block;
+    border-bottom: 1px solid #fffedb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 .super {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.75rem;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    clear: left;
+}
+
+a,
+a:hover {
+    font-size: 1.2rem;
+    color: #fffedb;
+    text-decoration: underline;
+}
+
+hr {
+    border-top-color: #fffedb;
+}
+
+img {
+    border: 1px solid #828382;
+}
+
+.title-image {
+    background: url("../img/title-bg-fade.png") no-repeat;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav__tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    width: 100%;
+    border-top: 1px solid #fffedb;
+    border-bottom: 1px solid #fffedb;
+}
+
+.nav__tabs li {
+    font-size: 1.2rem;
+    text-align: center;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav__tabs li a {
+    color: #fffedb;
+    display: block;
+    text-decoration: none;
+}
+
+li.nav__tabs--active {
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li.nav__tabs--more {
+    display: none;
+}
+
+li.nav__tabs--more img {
+    vertical-align: initial;
+    margin-left: 2px;
+}
+
+.home__jt-cover {
+    float: right;
+    width: 142px;
+    height: 228px;
+    margin: 20px 0 20px 20px;
+}
+
+.home__teeny-tiny {
+    float: left;
+    width: 120px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+.home__sonnets {
+    float: right;
+    width: 75px;
+    height: 120px;
+    margin: 20px 0 20px 20px;
+}
+
+.home__richard-hughes {
+    float: left;
+    width: 89px;
+    height: 140px;
+    margin-right: 20px;
+}
+
+.home p {
+    margin-bottom: 20px;
+}
+
+.about__photo {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 10px 10px;
+}
+
+.lowmoor__jt-cover {
+    float: right;
+    width: 142px;
+    height: 228px;
+    margin: 0 0 10px 10px;
+}
+
+.lowmoor__thorn {
+    float: left;
+    width: 150px;
+    height: 219px;
+    margin: 0 10px 10px 0;
+}
+
+.young-readers__teeny-tiny-1,
+.young-readers__teeny-tiny-2 {
+    margin-right: 10px;
+}
+
+.credits__jt-cover {
+    width: 142px;
+    height: 248px;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title {
+    font-style: italic;
+}
+
+@media (min-width:1025px) {
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        height: 40px;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    .nav__tabs li {
+        font-size: 0.75rem;
+        line-height: 16px;
+        padding: 5px;
+    }
+    li.nav__tabs--youngreaders,
+    li.nav__tabs--poetry,
+    li.nav__tabs--criticism,
+    li.nav__tabs--news
+    {
+        display: none;
+    }
+    li.nav__tabs--more {
+        display: inline-block;
+    }
+    .home__jt-cover {
+        width: 106px;
+        height: 171px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .home__teeny-tiny,
+    .home__richard-hughes {
+        margin-right: 10px;
+    }
+
+    .about__photo {
+        width: 150px;
+        height: 150px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .lowmoor__jt-cover {
+        width: 106px;
+        height: 171px;
+    }
+
+    .lowmoor__thorn {
+        width: 100px;
+        height: 145px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    header h2 {
+        display: none;
+    }
+}
