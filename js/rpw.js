@@ -10,7 +10,16 @@
                         templateUrl: 'html/about.html'
                     })
                     .when('/lowmoor', {
-                        templateUrl: 'html/lowmoor.html'
+                        templateUrl: 'html/lowmoor-jt.html'
+                    })
+                    .when('/jewelandthorn', {
+                        templateUrl: 'html/lowmoor-jt.html'
+                    })
+                    .when('/brasskey', {
+                        templateUrl: 'html/lowmoor-bk.html'
+                    })
+                    .when('/ironangel', {
+                        templateUrl: 'html/lowmoor-ia.html'
                     })
                     .when('/youngreaders', {
                         templateUrl: 'html/youngreaders.html'

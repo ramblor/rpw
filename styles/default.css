@@ -170,22 +170,33 @@ li.nav__tabs--more img {
 }
 
 .lowmoor__jt-cover {
-    float: right;
     width: 142px;
     height: 228px;
-    margin: 0 0 10px 10px;
 }
 
 .lowmoor__thorn {
-    float: left;
     width: 150px;
     height: 219px;
+}
+
+.lowmoor__bk-cover {
+    width: 142px;
+    height: 223px;
+}
+
+.lowmoor__ia-cover {
+    width: 150px;
+    height: 236px;
+}
+
+.float-image-left {
+    float: left;
     margin: 0 10px 10px 0;
 }
 
-.young-readers__teeny-tiny-1,
-.young-readers__teeny-tiny-2 {
-    margin-right: 10px;
+.float-image-right {
+    float: right;
+    margin: 0 0 10px 10px;
 }
 
 .credits__jt-cover {
@@ -201,6 +212,11 @@ li.nav__tabs--more img {
 
 .title {
     font-style: italic;
+    font-weight: bold;
+}
+
+p.review {
+    margin-bottom: 20px;
 }
 
 @media (min-width:1025px) {
