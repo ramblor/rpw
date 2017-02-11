@@ -214,6 +214,9 @@ li.nav__tabs--more img {
     font-style: italic;
     font-weight: bold;
 }
+.light {
+    font-weight: normal;
+}
 
 p.review {
     margin-bottom: 20px;
