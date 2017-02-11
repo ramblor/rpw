@@ -130,18 +130,24 @@ li.nav__tabs--more img {
     margin-left: 2px;
 }
 
+.home {
+    padding-top: 25px;
+}
+
 .home__jt-cover {
-    float: right;
+    float: left;
     width: 142px;
     height: 228px;
     margin: 20px 0 20px 20px;
 }
 
-.home__teeny-tiny {
-    float: left;
-    width: 120px;
-    height: 90px;
-    margin-right: 20px;
+.home__covers {
+    text-align: center;
+}
+.home__covers img {
+    width: 142px;
+    height: 228px;
+    margin: 0 0 20px 20px;
 }
 
 .home__sonnets {
