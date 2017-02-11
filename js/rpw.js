@@ -21,9 +21,6 @@
                     .when('/ironangel', {
                         templateUrl: 'html/lowmoor-ia.html'
                     })
-                    .when('/youngreaders', {
-                        templateUrl: 'html/youngreaders.html'
-                    })
                     .when('/news', {
                         templateUrl: 'html/news.html'
                     })
@@ -53,7 +50,6 @@
                         {link: 'home', label: 'Home'},
                         {link: 'about', label: 'About'},
                         {link: 'lowmoor', label: 'The Book of Lowmoor'},
-                        {link: 'youngreaders', label: 'For Young Readers', toggle: true},
                         //{link: 'poetry', label: 'Poetry', toggle: true},
                         //{link: 'criticism', label: 'Criticism', toggle: true},
                         {link: 'news', label: 'Stop Press - Latest News', toggle: true}
