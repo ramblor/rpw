@@ -48,11 +48,11 @@
                     $scope.more = false;
                     $scope.tabs = [
                         {link: 'home', label: 'Home'},
-                        {link: 'about', label: 'About'},
+                        {link: 'about', label: 'About Myself'},
                         {link: 'lowmoor', label: 'The Book of Lowmoor'},
                         //{link: 'poetry', label: 'Poetry', toggle: true},
                         //{link: 'criticism', label: 'Criticism', toggle: true},
-                        {link: 'news', label: 'Stop Press - Latest News', toggle: true}
+                        {link: 'news', label: 'Stop Press', toggle: true}
                     ];
                     $scope.tabClass = function(tab) {
                         var c = "nav__tabs--" + tab.link;
