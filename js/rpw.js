@@ -4,28 +4,52 @@
             function ($routeProvider, $locationProvider) {
                 $routeProvider
                     .when('/home', {
-                        templateUrl: 'html/home.html'
+                        templateUrl: 'html/home.html',
+                        title: 'Home'
                     })
                     .when('/about', {
-                        templateUrl: 'html/about.html'
+                        templateUrl: 'html/about.html',
+                        title: 'About'
                     })
                     .when('/lowmoor', {
-                        templateUrl: 'html/lowmoor-jt.html'
+                        templateUrl: 'html/lowmoor/jewel-and-thorn.html',
+                        title: 'Jewel and Thorn'
                     })
-                    .when('/jewelandthorn', {
-                        templateUrl: 'html/lowmoor-jt.html'
+                    .when('/lowmoor/jewelandthorn', {
+                        templateUrl: 'html/lowmoor/jewel-and-thorn.html',
+                        title: 'Jewel and Thorn'
                     })
-                    .when('/brasskey', {
-                        templateUrl: 'html/lowmoor-bk.html'
+                    .when('/lowmoor/brasskey', {
+                        templateUrl: 'html/lowmoor/brass-key.html',
+                        title: 'The Brass Key'
                     })
-                    .when('/ironangel', {
-                        templateUrl: 'html/lowmoor-ia.html'
+                    .when('/lowmoor/ironangel', {
+                        templateUrl: 'html/lowmoor/iron-angel.html',
+                        title: 'The Iron Angel'
+                    })
+                    .when('/poetry', {
+                        templateUrl: 'html/poetry/poetry.html',
+                        title: 'Poetry'
+                    })
+                    .when('/poetry/goings', {
+                        templateUrl: 'html/poetry/goings.html',
+                        title: 'Goings and Other Poems'
+                    })
+                    .when('/poetry/words', {
+                        templateUrl: 'html/poetry/words.html',
+                        title: 'Words Before Midnight'
+                    })
+                    .when('/poetry/naturalhistories', {
+                        templateUrl: 'html/poetry/natural-histories.html',
+                        title: 'Natural Histories'
                     })
                     .when('/news', {
-                        templateUrl: 'html/news.html'
+                        templateUrl: 'html/news.html',
+                        title: 'News'
                     })
                     .when('/credits', {
-                        templateUrl: 'html/credits.html'
+                        templateUrl: 'html/credits.html',
+                        title: 'Credits'
                     })
                     .otherwise({redirectTo: '/home'});
                 $locationProvider.html5Mode(true);
@@ -75,4 +99,12 @@
                 controllerAs: 'tabs'
             };
         });
+
+    app.run(['$location', '$rootScope', function($location, $rootScope) {
+        $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+            if (current.hasOwnProperty('$$route')) {
+                $rootScope.title = current.$$route.title;
+            }
+        });
+    }]);
 })();
