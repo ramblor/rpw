@@ -62,10 +62,13 @@ li {
     font-size: 1.2rem;
 }
 
-p {
+p, blockquote {
     font-size: 1.2rem;
     line-height: 1.75rem;
     clear: left;
+}
+blockquote {
+    border-left: 0;
 }
 
 a,
@@ -195,6 +198,11 @@ li.nav__tabs--more img {
     height: 236px;
 }
 
+.poetry__list li {
+    list-style: none;
+    line-height: 2em;
+}
+
 .float-image-left {
     float: left;
     margin: 0 10px 10px 0;
@@ -222,6 +230,12 @@ li.nav__tabs--more img {
 }
 .light {
     font-weight: normal;
+}
+.normal {
+    font-style: normal;
+}
+.indent {
+    margin-left: 40px;
 }
 
 p.review {
