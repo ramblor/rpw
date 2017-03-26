@@ -1,6 +1,6 @@
 <nav class="nav">
     <ul class="nav__tabs">
         <li data-ng-repeat="tab in tabs" data-ng-class="tabClass(tab)"><a href="{{tab.link}}">{{tab.label}}</a></li>
-        <li class="nav__tabs--more"><a href="#" data-ng-click="showMore();" onclick="return false;">More<img src="img/more.png" alt=""/></a></li>
+        <li class="nav__tabs--more"><a href="#" data-ng-click="showMore();" onclick="return false;">{{toggleText}}<img src="img/more.png" alt=""/></a></li>
     </ul>
 </nav>

@@ -43,6 +43,18 @@
                         templateUrl: 'html/poetry/natural-histories.html',
                         title: 'Natural Histories'
                     })
+                    .when('/poetry/autobiographies', {
+                        templateUrl: 'html/poetry/autobiographies.html',
+                        title: 'Autobiographies and Explorations'
+                    })
+                    .when('/poetry/thatfooljuly', {
+                        templateUrl: 'html/poetry/that-fool-july.html',
+                        title: 'That Fool July'
+                    })
+                    .when('/poetry/camelion', {
+                        templateUrl: 'html/poetry/camelion.html',
+                        title: 'Camelion'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
@@ -74,7 +86,7 @@
                         {link: 'home', label: 'Home'},
                         {link: 'about', label: 'About Myself'},
                         {link: 'lowmoor', label: 'The Book of Lowmoor'},
-                        //{link: 'poetry', label: 'Poetry', toggle: true},
+                        {link: 'poetry', label: 'Poetry', toggle: true},
                         //{link: 'criticism', label: 'Criticism', toggle: true},
                         {link: 'news', label: 'Stop Press', toggle: true}
                     ];
@@ -94,6 +106,7 @@
                         if ($scope.more){
                             $(".nav__tabs li.toggle").css('display','inline-block');
                         }
+                        $scope.toggleText = $scope.more ? 'Less' : 'More';
                     }
                 },
                 controllerAs: 'tabs'

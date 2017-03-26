@@ -152,6 +152,10 @@ li.nav__tabs--more img {
     height: 228px;
     margin: 0 0 20px 20px;
 }
+.home__covers--lowmoor img {
+    width: 142px;
+    height: 228px;
+}
 
 .home__sonnets {
     float: right;
@@ -240,6 +244,9 @@ li.nav__tabs--more img {
 }
 .indent {
     margin-left: 40px;
+}
+.indent-line {
+    margin-left: 15px;
 }
 .center {
     text-align: center;
