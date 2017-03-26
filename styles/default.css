@@ -133,6 +133,10 @@ li.nav__tabs--more img {
     margin-left: 2px;
 }
 
+.clear {
+    clear: left;
+}
+
 .home {
     padding-top: 25px;
 }
@@ -209,6 +213,10 @@ li.nav__tabs--more img {
 
 .poetry.cover {
     margin: 20px;
+}
+.rh p,
+.rh-novelist p {
+    clear: none;
 }
 
 .float-image-left {

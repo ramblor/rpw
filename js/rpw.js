@@ -55,6 +55,18 @@
                         templateUrl: 'html/poetry/camelion.html',
                         title: 'Camelion'
                     })
+                    .when('/essays/richard-hughes/', {
+                        templateUrl: 'html/essays/richard-hughes/richard-hughes.html',
+                        title: 'Richard Hughes'
+                    })
+                    .when('/essays/richard-hughes/novelist', {
+                        templateUrl: 'html/essays/richard-hughes/novelist.html',
+                        title: 'Richard Hughes, Novelist'
+                    })
+                    .when('/essays/richard-hughes/fiction-as-truth', {
+                        templateUrl: 'html/essays/richard-hughes/fiction-as-truth.html',
+                        title: 'Fiction as Truth'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
