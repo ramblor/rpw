@@ -67,6 +67,22 @@
                         templateUrl: 'html/essays/richard-hughes/fiction-as-truth.html',
                         title: 'Fiction as Truth'
                     })
+                    .when('/essays/richard-hughes/a-manifold-world', {
+                        templateUrl: 'html/essays/richard-hughes/a-manifold-world.html',
+                        title: 'A Manifold World'
+                    })
+                    .when('/essays/richard-hughes/under-the-nose', {
+                        templateUrl: 'html/essays/richard-hughes/under-the-nose.html',
+                        title: 'Under the Nose and Under the Skin'
+                    })
+                    .when('/essays/richard-hughes/a-high-wind', {
+                        templateUrl: 'html/essays/richard-hughes/a-high-wind.html',
+                        title: 'Irony in A High Wind in Jamaica'
+                    })
+                    .when('/essays/richard-hughes/in-hazard', {
+                        templateUrl: 'html/essays/richard-hughes/in-hazard.html',
+                        title: 'In Hazard'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
