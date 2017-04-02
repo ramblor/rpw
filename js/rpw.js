@@ -83,6 +83,14 @@
                         templateUrl: 'html/essays/richard-hughes/in-hazard.html',
                         title: 'In Hazard'
                     })
+                    .when('/essays/richard-hughes/morality-and-selfhood', {
+                        templateUrl: 'html/essays/richard-hughes/morality-and-selfhood.html',
+                        title: 'Morality and Selfhood'
+                    })
+                    .when('/essays/richard-hughes/the-human-predicament', {
+                        templateUrl: 'html/essays/richard-hughes/the-human-predicament.html',
+                        title: 'The Human Predicament'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
