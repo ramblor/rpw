@@ -123,7 +123,7 @@
                         {link: 'about', label: 'About Myself'},
                         {link: 'lowmoor', label: 'The Book of Lowmoor'},
                         {link: 'poetry', label: 'Poetry', toggle: true},
-                        //{link: 'criticism', label: 'Criticism', toggle: true},
+                        {link: 'essays/richard-hughes', label: 'Richard Hughes', toggle: true},
                         {link: 'news', label: 'Stop Press', toggle: true}
                     ];
                     $scope.tabClass = function(tab) {
