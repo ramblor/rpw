@@ -86,6 +86,17 @@ img {
     border: 1px solid #828382;
 }
 
+ol.parens {
+    counter-reset: item;
+}
+ol.parens li {
+    counter-increment: item;
+    list-style-type: none;
+}
+ol.parens li:before {
+    content: " ("counter(item)") ";
+}
+
 .title-image {
     background: url("../img/title-bg-fade.png") no-repeat;
 }
@@ -251,13 +262,25 @@ li.nav__tabs--more img {
     font-style: normal;
 }
 .indent {
-    margin-left: 40px;
+    margin-left: 30px;
+}
+.indent-xs {
+    margin-left: 10px;
+}
+.indent-x {
+    margin-left: 50px;
+}
+.indent-xx {
+    margin-left: 60px;
 }
 .indent-line {
     margin-left: 15px;
 }
 .center {
     text-align: center;
+}
+.new {
+    color: red;
 }
 
 p.review {

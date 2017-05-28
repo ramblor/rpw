@@ -91,6 +91,34 @@
                         templateUrl: 'html/essays/richard-hughes/the-human-predicament.html',
                         title: 'The Human Predicament'
                     })
+                    .when('/essays/poetry/', {
+                        templateUrl: 'html/essays/poetry/essays-on-poetry.html',
+                        title: 'Essays and Reviews: On Poetry'
+                    })
+                    .when('/essays/poetry/lucretius', {
+                        templateUrl: 'html/essays/poetry/lucretius.html',
+                        title: 'Lucretius: Scourge of Superstition'
+                    })
+                    .when('/essays/poetry/venus-and-adonis', {
+                        templateUrl: 'html/essays/poetry/venus-and-adonis.html',
+                        title: 'Shakespeare\'s Venus and Adonis'
+                    })
+                    .when('/essays/poetry/egotist-and-camelion', {
+                        templateUrl: 'html/essays/poetry/egotist-and-camelion.html',
+                        title: 'Egotist and Camelion'
+                    })
+                    .when('/essays/poetry/the-love-song', {
+                        templateUrl: 'html/essays/poetry/the-love-song.html',
+                        title: '"The Love Song of J. Alfred Prufrock"'
+                    })
+                    .when('/essays/poetry/george-barker', {
+                        templateUrl: 'html/essays/poetry/george-barker.html',
+                        title: 'The Poetry of George Barker'
+                    })
+                    .when('/essays/poetry/sisson', {
+                        templateUrl: 'html/essays/poetry/sisson.html',
+                        title: 'The Poetry of C. H. Sisson'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
