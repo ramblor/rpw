@@ -150,27 +150,17 @@
                         {link: 'home', label: 'Home'},
                         {link: 'about', label: 'About Myself'},
                         {link: 'lowmoor', label: 'The Book of Lowmoor'},
-                        {link: 'poetry', label: 'Poetry', toggle: true},
-                        {link: 'essays/richard-hughes', label: 'Richard Hughes', toggle: true},
-                        {link: 'news', label: 'Stop Press', toggle: true}
+                        {link: 'poetry', label: 'Poetry'},
+                        {link: 'essays/richard-hughes', label: 'Richard Hughes'},
+                        {link: 'essays/poetry', label: 'Essays and Reviews'},
+                        {link: 'news', label: 'Stop Press'}
                     ];
                     $scope.tabClass = function(tab) {
                         var c = "nav__tabs--" + tab.link;
                         if ($rootScope.activeTab === tab.link) {
                             c += " nav__tabs--active";
                         }
-                        if (tab.toggle) {
-                            c += " toggle";
-                        }
                         return c;
-                    }
-                    $scope.showMore = function() {
-                        $scope.more = !$scope.more;
-                        $(".nav__tabs li.toggle").toggle($scope.more);
-                        if ($scope.more){
-                            $(".nav__tabs li.toggle").css('display','inline-block');
-                        }
-                        $scope.toggleText = $scope.more ? 'Less' : 'More';
                     }
                 },
                 controllerAs: 'tabs'
