@@ -119,6 +119,10 @@
                         templateUrl: 'html/essays/poetry/sisson.html',
                         title: 'The Poetry of C. H. Sisson'
                     })
+                    .when('/essays/poetry/duncan-bush', {
+                        templateUrl: 'html/essays/poetry/duncan-bush-personae.html',
+                        title: 'Duncan Bush\'s Personae'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
