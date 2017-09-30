@@ -123,6 +123,10 @@
                         templateUrl: 'html/essays/poetry/duncan-bush-personae.html',
                         title: 'Duncan Bush\'s Personae'
                     })
+                    .when('/essays/poetry/bitter-dreamer', {
+                        templateUrl: 'html/essays/poetry/bitter-dreamer.html',
+                        title: 'Idris Davies: The Bitter Dreamer'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
