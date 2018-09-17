@@ -127,6 +127,10 @@
                         templateUrl: 'html/essays/poetry/bitter-dreamer.html',
                         title: 'Idris Davies: The Bitter Dreamer'
                     })
+                    .when('/essays/poetry/double-vision', {
+                        templateUrl: 'html/essays/poetry/double-vision.html',
+                        title: 'The Double Vision of Dylan Thomas'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
