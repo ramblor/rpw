@@ -261,16 +261,16 @@ li.nav__tabs--more img {
 .normal {
     font-style: normal;
 }
-.indent {
-    margin-left: 30px;
-}
-.indent-xs {
+.indent-10 {
     margin-left: 10px;
 }
-.indent-x {
+.indent-30 {
+    margin-left: 30px;
+}
+.indent-50 {
     margin-left: 50px;
 }
-.indent-xx {
+.indent-60 {
     margin-left: 60px;
 }
 .indent-line {
