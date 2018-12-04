@@ -131,6 +131,10 @@
                         templateUrl: 'html/essays/poetry/double-vision.html',
                         title: 'The Double Vision of Dylan Thomas'
                     })
+                    .when('/essays/poetry/john-ormond-voices', {
+                        templateUrl: 'html/essays/poetry/john-ormond-voices.html',
+                        title: 'John Ormond\'s Voices'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
