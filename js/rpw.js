@@ -135,6 +135,10 @@
                         templateUrl: 'html/essays/poetry/john-ormond-voices.html',
                         title: 'John Ormond\'s Voices'
                     })
+                    .when('/essays/poetry/splinter-of-ice', {
+                        templateUrl: 'html/essays/poetry/splinter-of-ice.html',
+                        title: 'John Ormond\'s Voices'
+                    })
                     .when('/news', {
                         templateUrl: 'html/news.html',
                         title: 'News'
