@@ -54,6 +54,10 @@ h3 .super {
     text-transform: uppercase;
 }
 
+h3 span.red {
+    color: red;
+}
+
 h4 {
     font-size: 1.75rem;
 }
@@ -163,13 +167,14 @@ li.nav__tabs--more img {
     text-align: center;
 }
 .home__covers img {
-    width: 142px;
-    height: 228px;
     margin: 0 0 20px 20px;
 }
 .home__covers--lowmoor img {
     width: 142px;
     height: 228px;
+}
+.home__covers--lml img {
+    width: 180px;
 }
 
 .home__sonnets {
@@ -195,6 +200,30 @@ li.nav__tabs--more img {
     width: 200px;
     height: 200px;
     margin: 0 0 10px 10px;
+}
+
+.lml p {
+    clear: none;
+}
+
+.lml div.images img {
+    padding: 20px;
+    border: none;
+}
+
+.lml__contents ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 50px;
+    vertical-align: top;
+}
+.lml__contents ul span.index {
+    display: inline-block;
+    width: 20px;
+}
+.lml__contents div {
+    float: right;
 }
 
 .lowmoor__jt-cover {

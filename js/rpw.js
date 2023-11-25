@@ -11,6 +11,10 @@
                         templateUrl: 'html/about.html',
                         title: 'About'
                     })
+                    .when('/low-moor-lad', {
+                        templateUrl: 'html/low-moor-lad/index.html',
+                        title: 'Jewel and Thorn'
+                    })
                     .when('/lowmoor', {
                         templateUrl: 'html/lowmoor/jewel-and-thorn.html',
                         title: 'Jewel and Thorn'
@@ -173,7 +177,7 @@
                         {link: 'poetry', label: 'Poetry'},
                         {link: 'essays/richard-hughes', label: 'Richard Hughes'},
                         {link: 'essays/poetry', label: 'Essays and Reviews'},
-                        {link: 'news', label: 'Stop Press'}
+                        {link: 'low-moor-lad', label: 'Low Moor Lad'}
                     ];
                     $scope.tabClass = function(tab) {
                         var c = "nav__tabs--" + tab.link;
